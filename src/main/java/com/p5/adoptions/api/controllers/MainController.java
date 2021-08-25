@@ -19,7 +19,7 @@ public class MainController {
     }
     @GetMapping("/owner")
     public String greetOwner(){
-        return "Hello owner";
+        return "Hello owner GET!";
     }
 }
 
